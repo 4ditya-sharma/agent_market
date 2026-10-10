@@ -1,0 +1,14 @@
+{
+  "optimal_threshold": 0.45836543746386604,
+  "xgb_weight": 0.2,
+  "recall_floor": 0.95,
+  "labels": [
+    "benign",
+    "malicious",
+    "malignant"
+  ],
+  "test_pr_auc": 0.9917711728038925,
+  "test_macro_f1": 0.9293605538229194,
+  "sklearn_version": "1.9.1",
+  "xgboost_version": "3.4.1"
+}

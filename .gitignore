@@ -1,0 +1,7 @@
+__pycache__/
+.venv/
+.env
+outputs/
+.tfidf_cache/
+models/ckpt/
+models/injection_transformer/

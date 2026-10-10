@@ -1,0 +1,32 @@
+# core
+pydantic>=2.5
+fastapi>=0.110
+uvicorn>=0.27
+httpx>=0.24
+openai>=1.30            # one OpenAI-compatible client for Groq / Gemini / Ollama / OpenRouter
+langgraph>=0.2
+python-dotenv>=1.0
+
+# ML
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3
+xgboost>=2.0
+joblib>=1.3
+
+# workers
+matplotlib>=3.8
+python-pptx>=0.6.23
+
+# optional: better semantic agent search (needs torch)
+sentence-transformers>=3.0
+
+# optional: transformer firewall + public datasets (classifier/train_transformer.py, build_dataset.py)
+torch>=2.2
+transformers>=4.40
+datasets>=2.14
+accelerate>=0.30
+
+# dev
+pytest>=7.4
